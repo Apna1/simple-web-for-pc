@@ -1,0 +1,114 @@
+header nav{
+    background-color: rgb(144, 159, 61);
+  
+}
+ul{
+    list-style: none;
+   
+}
+a{
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+}
+a :hover{
+    color: black;
+}
+.top-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+}
+.a2{
+    background-color: rgb(227, 77, 22);
+    padding: 20px;
+    text-align: center;
+    }
+    .pop{
+        background-color: rgb(105, 105, 134);
+        display: flex;
+    flex-flow: row wrap;
+     /* justify-content: flex-end;  */
+    }
+    .pop h2{
+        margin-top: 1rem;
+        margin-left: 3rem;
+       
+    }
+figure{
+    margin-top: 5rem;
+    justify-content: space-between;
+
+}
+figcaption{
+    background-color: rgb(209, 250, 167);
+    padding: 0.5rem;
+    margin-top: -35px;
+    position: relative;
+}
+.pic{
+    border: 2px solid red;
+    }
+.pic2{
+    border: 2px solid orangered ;
+}
+.pic3{
+    border: 2px solid greenyellow ;
+    }
+    .cool{
+        background-color: bisque;
+       padding: 30px;
+    }
+#school{
+    border: 2px solid orange;
+    
+}
+#too{
+background-color: rgb(142, 228, 137);
+max-width: 845px;
+/* margin-left: 82px; */
+/* position: absolute; */
+position: relative;
+margin-top: -65px;
+padding: 20px;
+}
+h2{
+   
+    margin-left: 3rem;
+}
+#only{
+     margin-left: -8rem; 
+}
+
+
+.soc{
+    background-color: sandybrown;
+    padding: 3rem;
+   display: flex;
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px;
+    max-width: 1200px;
+margin: 0px;
+}
+ul li a{
+    max-width: 1200px;
+    margin: 50px 0px 0px 30px;
+}
+footer li{
+    margin-right: 1rem;
+}
+.add{
+    margin: -30px 10px 10px 150px;
+}
+a{
+
+    text-decoration: none;
+}
+
+
