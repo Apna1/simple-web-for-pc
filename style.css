@@ -18,11 +18,13 @@ a :hover{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-basis: 100%;
 }
 .a2{
     background-color: rgb(227, 77, 22);
-    padding: 20px;
+    /* max-height: 454px; */
+    width: 100%;
     text-align: center;
     }
     .pop{
@@ -49,16 +51,21 @@ figcaption{
 }
 .pic{
     border: 2px solid red;
+    margin-left: -40px;
     }
 .pic2{
     border: 2px solid orangered ;
+   
 }
 .pic3{
     border: 2px solid greenyellow ;
-    }
+       
+}
     .cool{
         background-color: bisque;
        padding: 30px;
+       width: auto;
+       
     }
 #school{
     border: 2px solid orange;
@@ -66,19 +73,43 @@ figcaption{
 }
 #too{
 background-color: rgb(142, 228, 137);
-max-width: 845px;
-/* margin-left: 82px; */
+width:100%;
+
 /* position: absolute; */
-position: relative;
-margin-top: -65px;
+/* position: relative; */
+ margin-top: -65px; 
 padding: 20px;
 }
 h2{
    
     margin-left: 3rem;
 }
+.nop{
+    background-color: rgb(105, 105, 134);
+    display: flex;
+flex-flow: row wrap;
+}
+/* ........................ */
 #only{
+   
      margin-left: -8rem; 
+     border: 2px solid red;
+     
+}
+.bo2{
+    border: 2px solid orange;
+}
+.bo3{
+    border: 2px solid silver;
+}
+.bo4{
+    border: 2px solid blue;
+}
+.bo5{
+    border: 2px solid springgreen;
+}
+.bo6{
+    border: 2px solid saddlebrown;
 }
 
 
@@ -86,29 +117,164 @@ h2{
     background-color: sandybrown;
     padding: 3rem;
    display: flex;
+   flex-wrap: row wrap;
 }
 
  ul{
     list-style: none;
     display: flex;
-    flex-flow: column wrap;
+    /* flex-flow: column wrap;
     padding: 0px;
     max-width: 1200px;
-margin: 0px;
+margin: 0px; */
 }
 ul li a{
     max-width: 1200px;
-    margin: 50px 0px 0px 30px;
+    /* margin: 50px 0px 0px 30px; */
 }
-footer li{
-    margin-right: 1rem;
-}
-.add{
+ footer li{ 
+     margin-right: 1rem;
+}   
+/* .add{
     margin: -30px 10px 10px 150px;
-}
+} */
 a{
 
     text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+
+    .login{
+        width: 70%;
+        margin-left: -15px;
+
+    }
+    .he1{
+        
+        color: aqua;
+        text-align: left;
+        font: 1em sans-serif;
+        /* background-color: orangered;
+        border: 1px solid orangered; */
+        margin: 35px 0px 0px 5px;
+    }
+    .he2{
+        font: 1em sans-serif;
+        color: aqua;
+        margin: 35px 70px 0px auto;
+        text-align: center;
+        /* background-color: orangered;
+        border: 2px solid orangered; */
+    }
+    .a3{
+        color: aqua;
+        text-align: left;
+        font: 1em sans-serif;
+        /* background-color: orangered;
+        border: 2px solid orangered; */
+    }
+    .he3{
+        font: 1em sans-serif;
+        color: aqua;
+        margin: 35px 70px 0px auto;
+        text-align: center;
+        /* background-color: orangered;
+        border: 2px solid orangered; */
+    }
+
+ .pic{
+
+    margin-left: 50px;
+    margin-top: 0px;
+}
 
 
+    section #too{
+        background-color: rgb(142, 228, 137);
+        width:180px;
+        /* margin-left: 82px; */
+        /* position: absolute; */
+        margin-top: -45px;
+        padding: 10px;
+        }
+
+#only{
+       margin-top: 0px;
+     margin-left: 1rem; 
+    border: 2px solid red;
+    /* height:20px;
+     width:10px; */
+     margin-right: 30rem;
+     margin-left: 20px;
+
+}
+.bo2{
+    border: 2px solid orange;
+    /* height: 20px;
+    width: 30px; */
+    margin-top: 0px;
+    margin-bottom: 250px;
+    margin-left: 20px;
+}
+.bo3{
+    margin-top: -220px;
+    margin-left: 20px;
+}
+.bo4{
+    margin-top: 0px;
+    margin-left:20px;
+}
+.bo5{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.bo6{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.stay
+{
+    margin: -50px 0px 0px -80px;
+}
+.social{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    margin: -15px -50px 0px -200px;    
+
+}
+address{
+    margin:60px -50px 0px -40px;
+}
+
+.soc{
+    background-color: sandybrown;
+    padding: 3rem;
+   
+}
+
+}
+
+@media (min-width: 550px) and (max-width:799px) {
+    .top-main{
+        flex-basis: 100%;
+        padding: 40px;
+        margin-right: 30px;
+        /* margin: 0px -100px 30px 0px ; */
+    }
+    .pic{
+        margin-left: -135px;
+    }
+   .pic3{
+    margin-top: 0px;
+    margin-left: 220px;
+    /* flex-basis: 50%; */
+    /* width: 60%; */
+    /* object-position: 50%; */
+
+   }
+   #too{
+    width: 75%;
+   }
+}
+ 
